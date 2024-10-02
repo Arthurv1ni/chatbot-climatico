@@ -7,14 +7,14 @@ import humidity from '../../assets/humidity.png';
 import mist from '../../assets/mist.png';
 import rain from '../../assets/rain.png';
 import wind from '../../assets/wind.png';
-import { BsList } from 'react-icons/bs'; // Importando ícone de menu hambúrguer
+import { BsList } from 'react-icons/bs'; 
 
 const WeatherCard = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(false);
   const [weatherIcon, setWeatherIcon] = useState('');
-  const [isCollapsed, setIsCollapsed] = useState(false); // Controla se o painel está colapsado
-  const [isMobileOpen, setIsMobileOpen] = useState(false); // Controla o painel em telas móveis
+  const [isCollapsed, setIsCollapsed] = useState(false); 
+  const [isMobileOpen, setIsMobileOpen] = useState(false); 
 
   const apikey = 'f6145973562b5173e9accc6e640816a5';
   const apiURL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&';
