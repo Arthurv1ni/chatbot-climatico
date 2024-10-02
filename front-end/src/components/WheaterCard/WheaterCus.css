@@ -3,7 +3,7 @@
     width: 240px; /* Largura do card */
     background: linear-gradient(135deg, #3b3a3a 50%, #574d5c 80%, transparent 100%, #FF8AFB 100%);
     color: #fff;
-    padding: 16px; /* Reduzindo o padding */
+    padding: 16px; 
     text-align: center;
     border-radius: 20px;
     height: 235px;
@@ -12,7 +12,7 @@
     top: 2px;
     right: 2px;
     z-index: 10;
-    transition: all 0.3s ease; /* Adicionando uma transição suave */
+    transition: all 0.3s ease; 
 }
 
 .card.collapsed {
@@ -36,10 +36,10 @@
 }
 
 .mobile-header {
-    display: none; /*esconder o header mobile */
+    display: none; 
 }
 
-/* Estilo para o card no modo mobile */
+
 @media (max-width: 768px) {
     .card {
         top: 5px;
@@ -74,7 +74,7 @@
     display: none; /* Esconder o conteúdo de clima no modo colapsado */
 }
 
-/* Ajustes gerais para os detalhes de temperatura e ícones */
+
 .weather {
     margin-top: 10px;
 }
