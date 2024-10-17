@@ -16,7 +16,7 @@ const WeatherCard = () => {
   const [isCollapsed, setIsCollapsed] = useState(false); 
   const [isMobileOpen, setIsMobileOpen] = useState(false); 
 
-  const apikey = 'f6145973562b5173e9accc6e640816a5';
+  const apikey = '';
   const apiURL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&';
 
   const fetchWeather = async (lat, lon) => {
